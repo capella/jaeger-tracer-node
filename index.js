@@ -8,6 +8,7 @@ module.exports = {
   configure: tracer.configure,
   currentSpan: tracer.currentSpan,
   startSpan: tracer.startSpan,
+  wrapPromise: tracer.startSpan,
 
   /**
     * @deprecated since version 1.1.0
